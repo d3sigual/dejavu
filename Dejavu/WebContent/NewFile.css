@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightgray;
+	margin: 0px;
+	padding: 0px;
+}
+
+hr.blackHR {
+	background-color: black;
+	width: 65%;
+	height: 3px;
+}
+
+hr.whiteHR{
+	background-color: white;
+	width: 65%;
+	height: 5px;
+}
+
+p.whitetitle {
+	font-size: 250%;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+}
+
+div.blackBG {
+	background-color: black;
+	margin-top: -40px;
+}
+
+p.dates {
+	color: white;
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
+}
+
+time {
+	background-color: gray;
+	letter-spacing: 5px;
+	padding: 5px;
+}
+
+h2.center {
+	right: 14%;
+	position: relative;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+}
+
