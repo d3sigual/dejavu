@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+p {
+	font-size: large;
+}
+
 body {
 	background-color: lightgray;
 	margin: 0px;
@@ -12,10 +16,12 @@ hr.blackHR {
 	height: 3px;
 }
 
-hr.whiteHR{
+hr.whiteHR {
 	background-color: white;
 	width: 65%;
 	height: 5px;
+	bottom: 22.5px;
+	position: relative;
 }
 
 p.whitetitle {
@@ -43,12 +49,31 @@ time {
 	padding: 5px;
 }
 
-h2.center {
-	right: 14%;
-	position: relative;
-	text-align: center;
-	margin-left: 20%;
+h2.left {
+	text-align: left;
+	margin-left: 17.5%;
 	margin-right: 20%;
-	
 }
 
+p.longtext {
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+}
+
+strong {
+	font-variant: small-caps;
+}
+
+.dotted {
+	font-size: x-large;
+	border-bottom: 1px dotted red;
+}
+
+.whiteBG {
+	color: red;
+	background-color: white;
+}
+
+.highlight{
+	color: blue;
+}
